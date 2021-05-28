@@ -2,6 +2,9 @@
 
 - 📫 How to reach me: [@mirzasaikatahmmed](https://telegram.me/mirzasaikatahmmed)
 
+[![Twitter Badge](https://img.shields.io/badge/-Twitter-1da1f2?style=flat-square&labelColor=1da1f2&logo=twitter&logoColor=white&link=https://www.twitter.com/Mirza_Saikat/)](https://www.twitter.com/Mirza_Saikat/)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=mirzasaikatahmmed)
+
 
 ![mirzasaikatahmmed's github stats](https://github-readme-stats.vercel.app/api?username=mirzasaikatahmmed)
 

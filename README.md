@@ -1,6 +1,6 @@
 <h1 align="left"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> Hi, I'm Mirza Saikat Ahmmed</h1>
 
-- 📫 How to reach me: [@mirzasaikatahmmed](https://telegram.me/mirzasaikatahmmed)
+- 📫 How to reach me: [@mirzasaikatahmmed](https://t.me/mirzasaikatahmmed)
 
 [![Twitter Badge](https://img.shields.io/badge/-Twitter-1da1f2?style=flat-square&labelColor=1da1f2&logo=twitter&logoColor=white&link=https://www.twitter.com/Mirza_Saikat/)](https://www.twitter.com/Mirza_Saikat/)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=mirzasaikatahmmed)

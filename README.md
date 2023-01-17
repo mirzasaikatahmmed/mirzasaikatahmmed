@@ -11,7 +11,7 @@
 
 - 🌱 I’m currently learning **Computer Science and Engineering**
 
-- 👨‍💻 All of my projects are available at [https://mirzasaikatahmmed.netlify.app/](https://mirzasaikatahmmed.netlify.app/)
+- 👨‍💻 All of my projects are available at [https://netlify.mirzasaikatahmmed.info/](https://netlify.mirzasaikatahmmed.info/)
 
 - 📝 I regularly write articles on [https://mirzasaikatahmmed.github.io/](https://mirzasaikatahmmed.github.io/)
 

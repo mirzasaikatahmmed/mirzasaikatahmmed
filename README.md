@@ -24,7 +24,7 @@
 
 - 👨‍💻 All of my projects are available at [https://netlify.mirzasaikatahmmed.info/](https://netlify.mirzasaikatahmmed.info/)
 
-- 📝 I regularly write articles on [https://blog.mirzasaikatahmmed.info/]([https://mirzasaikatahmmed.github.io/](https://blog.mirzasaikatahmmed.info/))
+- 📝 I regularly write articles on [https://blog.mirzasaikatahmmed.info/](https://blog.mirzasaikatahmmed.info/)
 
 - 💬 Ask me about **React, Vue**
 

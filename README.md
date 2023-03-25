@@ -3,7 +3,18 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mirzasaikatahmmed&label=Profile%20views&color=0e75b6&style=flat" alt="mirzasaikatahmmed" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mirzasaikatahmmed" alt="mirzasaikatahmmed" /></a> </p>
+<p align="center">
+   <table>
+      <tr>
+       <th>Profile stats  </th>
+       <th>Language Contribution</th>
+     </tr>
+      <tr>
+       <td><img alt="Devorein :: Profile Stats" src="https://github-readme-stats.vercel.app/api?username=mirzasaikatahmmed&show_icons=true&theme=dark"> </td>
+       <td><img alt="Devorein :: Top Langs]" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mirzasaikatahmmed&langs_count=10&theme=tokyonight&layout=compact&hide=html"> </td>
+     </tr>
+   </table>
+</p>
 
 <p align="left"> <a href="https://twitter.com/mirza_saikat" target="blank"><img src="https://img.shields.io/twitter/follow/mirza_saikat?logo=twitter&style=for-the-badge" alt="mirza_saikat" /></a> </p>
 
@@ -13,17 +24,17 @@
 
 - 👨‍💻 All of my projects are available at [https://netlify.mirzasaikatahmmed.info/](https://netlify.mirzasaikatahmmed.info/)
 
-- 📝 I regularly write articles on [https://mirzasaikatahmmed.github.io/](https://mirzasaikatahmmed.github.io/)
+- 📝 I regularly write articles on [https://blog.mirzasaikatahmmed.info/]([https://mirzasaikatahmmed.github.io/](https://blog.mirzasaikatahmmed.info/))
 
 - 💬 Ask me about **React, Vue**
 
 - 📫 How to reach me **mirzasaikatahmmed@gmail.com**
 
-- 📄 Know about my experiences [https://mirzasaikatahmmed.netlify.app/](https://mirzasaikatahmmed.netlify.app/)
+- 📄 Know about my experiences [https://mirzasaikatahmmed.info/](https://mirzasaikatahmmed.info/)
 
 - ⚡ Fun fact **I think I am funny**
 
-### Blogs posts
+<!--### Blogs posts -->
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 

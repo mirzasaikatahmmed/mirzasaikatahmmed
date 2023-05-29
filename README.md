@@ -3,6 +3,8 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mirzasaikatahmmed&label=Profile%20views&color=0e75b6&style=flat" alt="mirzasaikatahmmed" /> </p>
 
+<p align="left"> <img align="center" src="https://metrics.lecoq.io/mirzasaikatahmmed" /> </p>
+
 <p align="center">
    <table>
       <tr>

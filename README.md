@@ -1,11 +1,3 @@
-<a href="https://mirzasaikatahmmed.info/contact/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./header-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./header.svg" />
-    <img alt="Mirza Saikat Ahmmed | Freelancer · Front-End Developer · UI/UX Designer 🎨" src="./header.svg" width="100%" />
-  </picture>
-</a>
-
 <details>
   <summary><h2>📊 Statistics</h2></summary>
 

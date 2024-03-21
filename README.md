@@ -20,19 +20,19 @@
 
 <p align="left"> <a href="https://twitter.com/mirza_saikat" target="blank"><img src="https://img.shields.io/twitter/follow/mirza_saikat?logo=twitter&style=for-the-badge" alt="mirza_saikat" /></a> </p>
 
-- 🔭 I’m currently working on [Online Code Editor](https://onlinecodeeditorai.ml/)
+- 🔭 I’m currently working on [Online Code Editor](https://webeditor.saikat.com.bd/)
 
 - 🌱 I’m currently learning **Computer Science and Engineering**
 
-- 👨‍💻 All of my projects are available at [https://netlify.mirzasaikatahmmed.info/](https://netlify.mirzasaikatahmmed.info/)
+- 👨‍💻 All of my projects are available at [https://saikat.com.bd/](https://saikat.com.bd/)
 
-- 📝 I regularly write articles on [https://blog.mirzasaikatahmmed.info/](https://blog.mirzasaikatahmmed.info/)
+- 📝 I regularly write articles on [https://blog.saikat.com.bd/](https://blog.saikat.com.bd/)
 
 - 💬 Ask me about **React, Vue**
 
-- 📫 How to reach me **mirzasaikatahmmed@gmail.com**
+- 📫 How to reach me **contactsaikat.com.bd**
 
-- 📄 Know about my experiences [https://mirzasaikatahmmed.info/](https://mirzasaikatahmmed.info/)
+- 📄 Know about my experiences [https://saikat.com.bd/](https://saikat.com.bd/)
 
 - ⚡ Fun fact **I think I am funny**
 

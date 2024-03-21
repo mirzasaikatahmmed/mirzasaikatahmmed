@@ -30,7 +30,7 @@
 
 - 💬 Ask me about **React, Vue**
 
-- 📫 How to reach me **contactsaikat.com.bd**
+- 📫 How to reach me **contact@saikat.com.bd**
 
 - 📄 Know about my experiences [https://saikat.com.bd/](https://saikat.com.bd/)
 

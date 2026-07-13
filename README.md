@@ -63,8 +63,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=mirzasaikatahmmed&show_icons=true&theme=dark&hide_border=true&bg_color=0D1224&title_color=16F2B3&icon_color=EC4899&text_color=D3D8E8" alt="GitHub stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mirzasaikatahmmed&langs_count=10&layout=compact&theme=dark&hide_border=true&bg_color=0D1224&title_color=16F2B3&text_color=D3D8E8&hide=html" alt="Top languages" height="165" />
+<img src="./profile/stats.svg" alt="GitHub stats" height="165" />
+<img src="./profile/top-langs.svg" alt="Top languages" height="165" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=mirzasaikatahmmed&theme=dark&hide_border=true&background=0D1224&ring=16F2B3&fire=EC4899&currStreakLabel=16F2B3" alt="GitHub streak" />
 

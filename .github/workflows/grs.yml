@@ -1,35 +1,39 @@
 name: Update README cards
-
 on:
   schedule:
-    - cron: "0 3 * * *" # Runs once daily at 03:00 UTC
+    - cron: "37 4 * * *" # Off-peak time to avoid rate limits
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
-
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
 
       - name: Generate stats card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=0D1224&title_color=16F2B3&icon_color=EC4899&text_color=D3D8E8
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=0D1224&title_color=16F2B3&icon_color=EC4899&text_color=D3D8E8" \
+            -o profile/stats.svg
+          echo "Stats card generated"
 
       - name: Generate top languages card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=10&hide=html&hide_border=true&bg_color=0D1224&title_color=16F2B3&text_color=D3D8E8
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api/top-langs?username=${{ github.repository_owner }}&layout=compact&langs_count=10&hide=html&hide_border=true&bg_color=0D1224&title_color=16F2B3&text_color=D3D8E8" \
+            -o profile/top-langs.svg
+          echo "Top langs card generated"
+
+      - name: Verify cards (no error SVGs)
+        run: |
+          for file in profile/stats.svg profile/top-langs.svg; do
+            if grep -q "Resource limits\|Something went wrong\|exceeded" "$file"; then
+              echo "ERROR: $file contains an error response"
+              cat "$file"
+              exit 1
+            fi
+            echo "$file looks good"
+          done
 
       - name: Commit cards
         run: |

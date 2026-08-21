@@ -5,7 +5,7 @@
 # Hi, I'm Mirza Saikat Ahmmed 👋
 
 <a href="https://saikat.com.bd" target="_blank">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=16F2B3&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+%26+Backend+Engineer;Next.js+%2B+NestJS+%2B+TypeScript;Building+scalable+web+apps+since+2022" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=16F2B3&center=true&vCenter=true&width=600&lines=Software+Engineer;Next.js+%2B+NestJS+%2B+TypeScript;Building+scalable+web+apps+since+2022" alt="Typing SVG" />
 </a>
 
 <p>

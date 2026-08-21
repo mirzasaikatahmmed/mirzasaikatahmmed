@@ -12,33 +12,55 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate stats card
+      - name: Generate stats cards (primary → fallback)
+        env:
+          USERNAME: ${{ github.repository_owner }}
         run: |
-          curl -s "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=0D1224&title_color=16F2B3&icon_color=EC4899&text_color=D3D8E8" \
-            -o profile/stats.svg
-          echo "Stats card generated"
+          set -euo pipefail
 
-      - name: Generate top languages card
-        run: |
-          curl -s "https://github-readme-stats.vercel.app/api/top-langs?username=${{ github.repository_owner }}&layout=compact&langs_count=10&hide=html&hide_border=true&bg_color=0D1224&title_color=16F2B3&text_color=D3D8E8" \
-            -o profile/top-langs.svg
-          echo "Top langs card generated"
+          STATS_QS="username=${USERNAME}&show_icons=true&hide_border=true&bg_color=0D1224&title_color=16F2B3&icon_color=EC4899&text_color=D3D8E8"
+          LANGS_QS="username=${USERNAME}&layout=compact&langs_count=10&hide=html&hide_border=true&bg_color=0D1224&title_color=16F2B3&text_color=D3D8E8"
 
-      - name: Verify cards (no error SVGs)
-        run: |
-          for file in profile/stats.svg profile/top-langs.svg; do
-            if grep -q "Resource limits\|Something went wrong\|exceeded" "$file"; then
-              echo "ERROR: $file contains an error response"
-              cat "$file"
-              exit 1
-            fi
-            echo "$file looks good"
-          done
+          # Official host often returns DEPLOYMENT_PAUSED; community mirror as fallback
+          BASES=(
+            "https://github-readme-stats.vercel.app"
+            "https://github-readme-stats.shion.dev"
+          )
 
-      - name: Commit cards
+          is_valid_svg() {
+            local file="$1"
+            grep -q '<svg' "$file" || return 1
+            ! grep -qiE 'Resource limits|Something went wrong|exceeded|DEPLOYMENT_PAUSED|unavailable|SERVICE_UNAVAILABLE' "$file"
+          }
+
+          fetch_card() {
+            local path="$1" qs="$2" out="$3"
+            for base in "${BASES[@]}"; do
+              echo "Trying ${base}${path}"
+              if curl -fsS "${base}${path}?${qs}" -o "$out" && is_valid_svg "$out"; then
+                echo "OK via $base -> $out"
+                return 0
+              fi
+              echo "Failed via $base"
+            done
+            echo "ERROR: all endpoints failed for $out"
+            cat "$out" 2>/dev/null || true
+            return 1
+          }
+
+          mkdir -p profile
+          fetch_card "/api" "$STATS_QS" "profile/stats.svg"
+          fetch_card "/api/top-langs" "$LANGS_QS" "profile/top-langs.svg"
+
+      - name: Commit cards only
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
+          git add -- profile/stats.svg profile/top-langs.svg
+          if git status --porcelain | grep -vE '^M  profile/(stats|top-langs)\.svg$'; then
+            echo "ERROR: unexpected changes detected; refusing to commit"
+            git status --porcelain
+            exit 1
+          fi
           git commit -m "Update README cards" || exit 0
           git push

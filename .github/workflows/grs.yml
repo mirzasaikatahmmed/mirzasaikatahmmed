@@ -11,6 +11,9 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          # PAT so commits are attributed to mirzasaikatahmmed (not github-actions[bot])
+          token: ${{ secrets.PERSONAL_TOKEN }}
 
       - name: Generate stats cards (primary → fallback)
         env:
@@ -54,8 +57,8 @@ jobs:
 
       - name: Commit cards only
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "mirzasaikatahmmed"
+          git config user.email "30868301+mirzasaikatahmmed@users.noreply.github.com"
           git add -- profile/stats.svg profile/top-langs.svg
           if git status --porcelain | grep -vE '^M  profile/(stats|top-langs)\.svg$'; then
             echo "ERROR: unexpected changes detected; refusing to commit"

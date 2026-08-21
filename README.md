@@ -24,7 +24,7 @@
 - 👨‍💻 All of my projects are showcased at **[saikat.com.bd](https://saikat.com.bd/)**
 - 📦 I publish and maintain developer tools on **[npm](https://saikat.com.bd/npm)** — see below
 - 📝 I write about web development at **[saikat.com.bd/blog](https://saikat.com.bd/blog)**
-- 💬 Ask me about **Next.js, NestJS, TypeScript, PostgreSQL, or REST API design**
+- 💬 Ask me about **Next.js, NestJS, TypeScript, Prisma, PostgreSQL, .NET, or REST API design**
 - 🎓 B.Sc. in Computer Science & Engineering, American International University-Bangladesh (AIUB)
 - ⚡ Fun fact: I think I am funny
 
@@ -32,9 +32,41 @@
 
 ## 🛠️ Tech Stack
 
+> Derived from 80+ personal repos and active work across Next.js / NestJS apps, Laravel, .NET APIs, Flutter clients, and CLI tools.
+
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=nextjs,react,typescript,nestjs,nodejs,laravel,php,postgres,mysql,mongodb,tailwind,docker,aws,graphql,wordpress,git" alt="Tech stack icons" />
+**Languages & runtimes**
+
+<img src="https://skillicons.dev/icons?i=typescript,nodejs,php,cs,py,rust,dart&perline=7" alt="Languages" />
+
+**Frontend**
+
+<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,flutter&perline=4" alt="Frontend" />
+
+**Backend & APIs**
+
+<img src="https://skillicons.dev/icons?i=nestjs,laravel,wordpress,prisma&perline=4" alt="Backend" />
+
+**Data & infra**
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,docker,aws,git&perline=7" alt="Data and infra" />
+
+**Payment gateways** I've integrated before
+
+<p>
+  <a href="https://stripe.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe" /></a>
+  <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" /></a>
+  <a href="https://www.bkash.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/bKash-E2136E?style=for-the-badge&logo=bkash&logoColor=white" alt="bKash" /></a>
+  <a href="https://aamarpay.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/aamarPay-00A86B?style=for-the-badge" alt="aamarPay" /></a>
+  <a href="https://www.sslcommerz.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/SSLCommerz-1A73E8?style=for-the-badge" alt="SSLCommerz" /></a>
+  <a href="https://paytm.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paytm-00BAF2?style=for-the-badge&logo=paytm&logoColor=white" alt="Paytm" /></a>
+  <a href="https://www.trustap.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Trustap-0F766E?style=for-the-badge" alt="Trustap" /></a>
+  <a href="https://www.cardcom.solutions" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Cardcom-1E3A8A?style=for-the-badge" alt="Cardcom" /></a>
+  <a href="https://nagad.com.bd" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Nagad-F7941D?style=for-the-badge" alt="Nagad" /></a>
+  <a href="https://www.dutchbanglabank.com/rocket/rocket.html" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Rocket-8B5CF6?style=for-the-badge" alt="Rocket" /></a>
+  <a href="https://www.upaybd.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Upay-2563EB?style=for-the-badge" alt="Upay" /></a>
+</p>
 
 </div>
 

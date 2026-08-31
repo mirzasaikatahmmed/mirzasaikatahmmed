@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">MIRZA SAIKAT AHMMED's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 36, Total Commits  (last year) : 1794, Total PRs: 224, Total Issues: 41, Contributed to (last year): 34</desc>
+        <desc id="descId">Total Stars Earned: 36, Total Commits  (last year) : 1800, Total PRs: 224, Total Issues: 41, Contributed to (last year): 34</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 83.28403768845472;
+        stroke-dashoffset: 83.27925880200983;
       }
     }
   

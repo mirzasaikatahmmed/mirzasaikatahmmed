@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">MIRZA SAIKAT AHMMED's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 36, Total Commits  (last year) : 1617, Total PRs: 224, Total Issues: 41, Contributed to (last year): 22</desc>
+        <desc id="descId">Total Stars Earned: 35, Total Commits  (last year) : 2097, Total PRs: 226, Total Issues: 41, Contributed to (last year): 23</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 83.53807038686577;
+        stroke-dashoffset: 83.68596031696364;
       }
     }
   
@@ -162,7 +162,7 @@
         x="219.01"
         y="12.5"
         data-testid="stars"
-      >36</text>
+      >35</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -177,7 +177,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >1.6k</text>
+      >2.1k</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >224</text>
+      >226</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -222,7 +222,7 @@
         x="219.01"
         y="12.5"
         data-testid="contribs"
-      >22</text>
+      >23</text>
     </g>
   </g>
     </svg>

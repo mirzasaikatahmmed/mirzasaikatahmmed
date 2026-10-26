@@ -20,11 +20,11 @@
 
 ## 🧑‍💻 About Me
 
-- 🔭 Currently building **[Visual Marketing](https://visualmarketingny.com/)** — a Next.js + NestJS marketing site — and maintaining my open-source npm packages
+- 🔭 Currently working on multiple projects and maintaining my open-source npm packages and CLI tools
 - 👨‍💻 All of my projects are showcased at **[saikat.com.bd](https://saikat.com.bd/)**
 - 📦 I publish and maintain developer tools on **[npm](https://saikat.com.bd/npm)** — see below
 - 📝 I write about web development at **[saikat.com.bd/blog](https://saikat.com.bd/blog)**
-- 💬 Ask me about **Next.js, NestJS, TypeScript, Prisma, PostgreSQL, .NET, or REST API design**
+- 💬 Ask me about **Next.js, NestJS, TypeScript, Prisma, PostgreSQL, .NET, multi-tenant SaaS APIs, or supply-chain security for JS projects**
 - 🎓 B.Sc. in Computer Science & Engineering, American International University-Bangladesh (AIUB)
 - ⚡ Fun fact: I think I am funny
 
@@ -32,17 +32,22 @@
 
 ## 🛠️ Tech Stack
 
-> Derived from 80+ personal repos and active work across Next.js / NestJS apps, Laravel, .NET APIs, Flutter clients, and CLI tools.
+> Derived from 100+ public repos and active work across Next.js / NestJS apps, Laravel, .NET APIs, Flutter / React Native apps, and CLI tools in TypeScript, Go, and Rust.
 
 <div align="center">
 
 **Languages & runtimes**
 
-<img src="https://skillicons.dev/icons?i=typescript,nodejs,php,cs,py,rust,dart&perline=7" alt="Languages" />
+<img src="https://skillicons.dev/icons?i=typescript,nodejs,php,cs,py,go,rust,java&perline=8" alt="Languages" />
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,flutter&perline=4" alt="Frontend" />
+<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind&perline=3" alt="Frontend" />
+
+**Mobile**
+
+<img src="https://skillicons.dev/icons?i=flutter,dart&perline=2" alt="Mobile" />
+<img src="https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
 
 **Backend & APIs**
 
@@ -84,10 +89,31 @@
 | [**social-auth-unifier**](https://www.npmjs.com/package/social-auth-unifier) | Unified social auth (Google, Twitter, Facebook, LinkedIn, GitHub) for NestJS |
 | [**nestjs-google-oauth**](https://www.npmjs.com/package/nestjs-google-oauth) | Google OAuth2 authentication strategy for NestJS |
 | [**nestjs-twitter-oauth**](https://www.npmjs.com/package/nestjs-twitter-oauth) | Twitter/X OAuth2 authentication strategy for NestJS |
+| [**@mirzasaikatahmmed/token-monitor**](https://www.npmjs.com/package/@mirzasaikatahmmed/token-monitor) | Global CLI that collects AI coding tool usage (Claude Code, Cursor, Codex, Copilot, and more) and ships it to a dashboard |
 
 📊 Live download stats & full list: **[saikat.com.bd/npm](https://saikat.com.bd/npm)**
 
 </div>
+
+<br>
+
+## 🚀 Open Source & Side Projects
+
+<div align="center">
+
+| Project | What it is |
+|:---|:---|
+| [**gitshield**](https://github.com/mirzasaikatahmmed/gitshield) | Go pre-clone/pull scanner for obfuscated malware hidden in Node config files (`eslint`, `next`, `vite`, `tailwind` configs) and `.vscode/tasks.json` |
+| [**ds-cli**](https://github.com/mirzasaikatahmmed/ds-cli) | Fast, cross-platform Rust CLI to check domain name availability across many TLDs in parallel |
+| [**nestjs-backend-template**](https://github.com/mirzasaikatahmmed/nestjs-backend-template) | NestJS + Prisma backend starter, malware-hardened, usable as a GitHub template |
+| [**nextjs-frontend-template**](https://github.com/mirzasaikatahmmed/nextjs-frontend-template) | Next.js App Router frontend starter, malware-hardened, usable as a GitHub template |
+| [**SaaS-based-School-Management-System-API**](https://github.com/mirzasaikatahmmed/SaaS-based-School-Management-System-API) | Multi-tenant .NET API for admissions, students, parents, and auth |
+| [**FieldOps-API**](https://github.com/mirzasaikatahmmed/FieldOps-API) | Multi-tenant field service and inspection API (.NET 8): jobs, checklists, photos |
+| [**uptimeMonitor**](https://github.com/mirzasaikatahmmed/uptimeMonitor) | Public status page for my sites, powered by Upptime |
+
+</div>
+
+🏢 I also build client work in the **[Visual-Studio-NYC](https://github.com/Visual-Studio-NYC)** and **[EnterkeyBD](https://github.com/EnterkeyBD)** organizations.
 
 <br>
 

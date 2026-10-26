@@ -1,17 +1,18 @@
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=mirzasaikatahmmed&label=Profile%20views&color=16f2b3&style=flat-square" alt="profile views" />
-
-# Hi, I'm Mirza Saikat Ahmmed 👋
+<img src="https://komarev.com/ghpvc/?username=mirzasaikatahmmed&label=Profile%20views&color=7D8CFF&style=flat-square" alt="profile views" />
 
 <a href="https://saikat.com.bd" target="_blank">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=16F2B3&center=true&vCenter=true&width=600&lines=Software+Engineer;Next.js+%2B+NestJS+%2B+TypeScript;Building+scalable+web+apps+since+2022" alt="Typing SVG" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./profile/banner-light.svg" />
+    <img src="./profile/banner-dark.svg" alt="Mirza Saikat Ahmmed, Software Engineer" width="900" />
+  </picture>
 </a>
 
 <p>
-  <a href="https://saikat.com.bd"><img src="https://img.shields.io/badge/Portfolio-saikat.com.bd-16f2b3?style=flat-square" /></a>
-  <a href="https://saikat.com.bd/hire"><img src="https://img.shields.io/badge/Available%20for-Hire-ec4899?style=flat-square" /></a>
-  <a href="mailto:contact@saikat.com.bd"><img src="https://img.shields.io/badge/Email-contact%40saikat.com.bd-8b5cf6?style=flat-square" /></a>
+  <a href="https://saikat.com.bd"><img src="https://img.shields.io/badge/Portfolio-saikat.com.bd-7D8CFF?style=flat-square" /></a>
+  <a href="https://saikat.com.bd/hire"><img src="https://img.shields.io/badge/Available%20for-Hire-4CC38A?style=flat-square" /></a>
+  <a href="mailto:contact@saikat.com.bd"><img src="https://img.shields.io/badge/Email-contact%40saikat.com.bd-3346E0?style=flat-square" /></a>
 </p>
 
 </div>
@@ -124,7 +125,7 @@
 <img src="./profile/stats.svg" alt="GitHub stats" height="165" />
 <img src="./profile/top-langs.svg" alt="Top languages" height="165" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mirzasaikatahmmed&theme=dark&hide_border=true&background=0D1224&ring=16F2B3&fire=EC4899&currStreakLabel=16F2B3" alt="GitHub streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mirzasaikatahmmed&theme=dark&hide_border=true&background=0A0D14&ring=7D8CFF&fire=F2B25C&currStreakLabel=7D8CFF" alt="GitHub streak" />
 
 </div>
 
@@ -143,6 +144,6 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=16f2b3&height=100&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7D8CFF&height=100&section=footer" width="100%" />
 
 </div>

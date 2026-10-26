@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="Mirza Saikat Ahmmed, Software Engineer">
+<defs>
+<radialGradient id="glow" cx="85%" cy="0%" r="70%"><stop offset="0" stop-color="#7D8CFF" stop-opacity="0.22"/><stop offset="1" stop-color="#7D8CFF" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+text{font-family:ui-monospace,"Geist Mono","SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+.line{font-size:20px;opacity:0}
+.cur{animation:blink 1s steps(1) infinite}
+.name{font-size:38px;font-weight:700}
+.l0{animation:fade 12s linear infinite;animation-delay:0s}
+.l1{animation:fade 12s linear infinite;animation-delay:3s}
+.l2{animation:fade 12s linear infinite;animation-delay:6s}
+.l3{animation:fade 12s linear infinite;animation-delay:9s}
+@keyframes fade{0%{opacity:0}2%,23%{opacity:1}25%,100%{opacity:0}}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.l0{animation:none;opacity:1}.cur{animation:none}}
+</style>
+<rect width="900" height="240" rx="14" fill="#0A0D14"/>
+<rect width="900" height="240" rx="14" fill="url(#glow)"/>
+<rect x="0.5" y="0.5" width="899" height="239" rx="14" fill="none" stroke="#222A3A"/>
+<rect x="0.5" y="0.5" width="899" height="40" rx="14" fill="#121722"/>
+<rect x="0.5" y="26" width="899" height="15" fill="#121722"/>
+<line x1="0" y1="41" x2="900" y2="41" stroke="#222A3A"/>
+<circle cx="28" cy="21" r="6" fill="#F2B25C"/><circle cx="48" cy="21" r="6" fill="#4CC38A"/><circle cx="68" cy="21" r="6" fill="#7D8CFF"/>
+<text x="450" y="26" text-anchor="middle" font-size="13" fill="#97A2B6">saikat@dhaka: ~</text>
+<text x="64" y="84" font-size="16" fill="#97A2B6"><tspan fill="#4CC38A">$</tspan> whoami</text>
+<text class="name" x="64" y="136" fill="#E8EBF2">Mirza Saikat Ahmmed</text>
+<text class="line l0" x="64" y="186" fill="#7D8CFF">&gt; <tspan fill="#E8EBF2">Software Engineer · Dhaka, Bangladesh</tspan><tspan class="cur" fill="#F2B25C">▍</tspan></text>
+<text class="line l1" x="64" y="186" fill="#7D8CFF">&gt; <tspan fill="#E8EBF2">Next.js + NestJS + TypeScript</tspan><tspan class="cur" fill="#F2B25C">▍</tspan></text>
+<text class="line l2" x="64" y="186" fill="#7D8CFF">&gt; <tspan fill="#E8EBF2">Prisma · PostgreSQL · .NET</tspan><tspan class="cur" fill="#F2B25C">▍</tspan></text>
+<text class="line l3" x="64" y="186" fill="#7D8CFF">&gt; <tspan fill="#E8EBF2">Open to client work</tspan><tspan class="cur" fill="#F2B25C">▍</tspan></text>
+</svg>

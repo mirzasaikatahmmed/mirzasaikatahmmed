@@ -21,8 +21,8 @@ jobs:
         run: |
           set -euo pipefail
 
-          STATS_QS="username=${USERNAME}&show_icons=true&hide_border=true&bg_color=0D1224&title_color=16F2B3&icon_color=EC4899&text_color=D3D8E8"
-          LANGS_QS="username=${USERNAME}&layout=compact&langs_count=10&hide=html&hide_border=true&bg_color=0D1224&title_color=16F2B3&text_color=D3D8E8"
+          STATS_QS="username=${USERNAME}&show_icons=true&hide_border=true&bg_color=0A0D14&title_color=7D8CFF&icon_color=F2B25C&text_color=E8EBF2"
+          LANGS_QS="username=${USERNAME}&layout=compact&langs_count=10&hide=html&hide_border=true&bg_color=0A0D14&title_color=7D8CFF&text_color=E8EBF2"
 
           # Official host often returns DEPLOYMENT_PAUSED; community mirror as fallback
           BASES=(

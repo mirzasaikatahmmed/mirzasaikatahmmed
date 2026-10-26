@@ -2,8 +2,8 @@
 
 <a href="https://saikat.com.bd" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="./profile/banner-light.svg?v=3" />
-    <img src="./profile/banner-dark.svg?v=3" alt="Mirza Saikat Ahmmed, Software Engineer" width="900" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/banner-light.svg?v=4" />
+    <img src="./profile/banner-dark.svg?v=4" alt="Mirza Saikat Ahmmed, Software Engineer" width="900" />
   </picture>
 </a>
 

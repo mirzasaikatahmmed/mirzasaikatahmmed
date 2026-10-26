@@ -7,8 +7,6 @@
   </picture>
 </a>
 
-<br>
-
 <p>
   <a href="https://saikat.com.bd"><img src="https://img.shields.io/badge/Portfolio-saikat.com.bd-7D8CFF?style=flat-square" /></a>
   <a href="https://saikat.com.bd/hire"><img src="https://img.shields.io/badge/Available%20for-Hire-4CC38A?style=flat-square" /></a>

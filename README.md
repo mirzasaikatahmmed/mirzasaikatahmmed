@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=mirzasaikatahmmed&label=Profile%20views&color=7D8CFF&style=flat-square" alt="profile views" />
-
 <a href="https://saikat.com.bd" target="_blank">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="./profile/banner-light.svg" />
@@ -9,11 +7,15 @@
   </picture>
 </a>
 
+<br>
+
 <p>
   <a href="https://saikat.com.bd"><img src="https://img.shields.io/badge/Portfolio-saikat.com.bd-7D8CFF?style=flat-square" /></a>
   <a href="https://saikat.com.bd/hire"><img src="https://img.shields.io/badge/Available%20for-Hire-4CC38A?style=flat-square" /></a>
   <a href="mailto:contact@saikat.com.bd"><img src="https://img.shields.io/badge/Email-contact%40saikat.com.bd-3346E0?style=flat-square" /></a>
 </p>
+
+<img src="https://komarev.com/ghpvc/?username=mirzasaikatahmmed&label=Profile%20views&color=7D8CFF&style=flat-square" alt="profile views" />
 
 </div>
 
